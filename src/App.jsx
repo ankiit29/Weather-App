@@ -65,7 +65,7 @@ function App() {
             <div className="info">
               <h5 className="weathorCity">{data?.name}</h5>
               <h6 className="weathorTemp">
-                {Math.ceil(data?.main?.temp - 273)}°C
+                {(data?.main?.temp - 273.15).toFixed(2)}°C
               </h6>
             </div>
           ) : (
