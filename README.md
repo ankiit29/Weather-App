@@ -1,8 +1,51 @@
-# React + Vite
+# 🌦 Weather-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive web application built with **React** and **Vite** that lets you check the current temperature of any city in the world using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [API Configuration](#api-configuration)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+---
+
+## 🚀 Demo
+
+Live Preview: **[Click Here](https://weather-app-ankiit29.vercel.app)**
+
+![Weather App Screenshot](screenshot.png)  
+*(Replace with an actual screenshot of your app)*
+
+---
+
+## ✨ Features
+- Search weather by **city name**.
+- Displays **current temperature**.
+- Responsive design for mobile and desktop.
+- Minimal UI for quick lookups.
+
+---
+
+## 🛠 Tech Stack
+- **React** – UI library
+- **Vite** – Build tool & dev server
+- **CSS** – Styling
+- **OpenWeatherMap API** – Weather data source
+
+---
+
+## ⚙ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ankiit29/Weather-App.git
+   cd Weather-App
